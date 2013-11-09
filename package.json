@@ -1,0 +1,39 @@
+{
+  "name": "grunt-ttf2woff",
+  "description": "Create a WOFF font from a TTF font",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nfroidure/grunt-ttf2woff",
+  "author": {
+    "name": "Nicolas Froidure",
+    "url": "http://www.insertafter.com/blog.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nfroidure/grunt-ttf2woff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nfroidure/grunt-ttf2woff/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nfroidure/grunt-ttf2woff/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "dependencies": {
+    "ttf2woff": "latest"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin", "font", "woff", "ttf", "converter"
+  ]
+}
