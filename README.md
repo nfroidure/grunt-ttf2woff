@@ -33,8 +33,8 @@ grunt.initConfig({
   ttf2woff: {
     your_target: {
       // Target-specific file lists go here.
-    },
-  },
+    }
+  }
 })
 ```
 
