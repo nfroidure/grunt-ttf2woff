@@ -40,12 +40,12 @@ grunt.initConfig({
 
 ### Options
 
-#### from
+#### src
 Type: `string`
 
 SVG fonts to convert. Wildcards are supported.
 
-#### to
+#### dest
 Type: `string`
 
 Directory in wich to save the converted font.
@@ -54,11 +54,13 @@ Directory in wich to save the converted font.
 
 ```js
 grunt.initConfig({
-  ttf2woff: {
-    from: 'fonts/*.svg',
-    to: 'fonts/'
-  },
-})
+    ttf2woff: {
+        default: {
+            src: ['fonts/*.ttf'],
+            dest: 'fonts/'
+        }
+    }
+});
 ```
 
 ### Contributing / Issues
