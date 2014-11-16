@@ -1,7 +1,7 @@
 {
   "name": "grunt-ttf2woff",
   "description": "Create a WOFF font from a TTF font",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/nfroidure/grunt-ttf2woff",
   "author": {
     "name": "Nicolas Froidure",
@@ -34,6 +34,12 @@
     "grunt": "~0.4.1"
   },
   "keywords": [
-    "gruntplugin", "grunt", "grunt-plugin", "font", "woff", "ttf", "converter"
+    "gruntplugin",
+    "grunt",
+    "grunt-plugin",
+    "font",
+    "woff",
+    "ttf",
+    "converter"
   ]
 }
