@@ -40,6 +40,8 @@ grunt.initConfig({
 
 ### Options
 
+This task uses the [standard Grunt file settings](http://gruntjs.com/configuring-tasks#files).
+
 #### src
 Type: `string`
 
